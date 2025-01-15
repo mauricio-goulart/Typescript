@@ -16,3 +16,12 @@ const person: [string, number] = ["Mauricio", 19]
 
 // Lista de Tuplas
 const people: [string, number][] = [["Mauricio", 19], ["Matheus", 16]]
+
+// Intersections
+const productId: string | number = "1" 
+
+// Enum
+
+enum Direction {Up = 1, Down = 2}
+
+const direction = Direction.Up
