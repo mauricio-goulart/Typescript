@@ -10,3 +10,9 @@ const ids: number[] = [1,2,3,4,5,6,7];
 const family: string[] = ["Mauricio", "Matheus"]
 
 console.log(age);
+
+// Tupla
+const person: [string, number] = ["Mauricio", 19]
+
+// Lista de Tuplas
+const people: [string, number][] = [["Mauricio", 19], ["Matheus", 16]]
