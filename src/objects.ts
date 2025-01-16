@@ -43,8 +43,19 @@ interface UserInterface {
 const emailUser: UserInterface = {
     email: "mauricio@gmail.com",
     firstName: "Mm"
- }
+ };
 
-emailUser.email = "2"
+emailUser.email = "2";
 //emailUser.firstName = "mm" - erro readonly
+
+// Interface em Função
+interface mathFun {
+    (x: number, y: number): number;
+};
+
+const sumNum: mathFun =(x: number, y: number): number =>{
+    return x + y;
+};
+
+
 
